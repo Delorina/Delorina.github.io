@@ -4,26 +4,29 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2022/11/04/2022/"/>
-      <url>/2022/11/04/2022/</url>
+      <title>Hexo框架的一些指令</title>
+      <link href="/2022/11/05/Hexo%E4%B8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E4%BB%A4/"/>
+      <url>/2022/11/05/Hexo%E4%B8%8B%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<!-- 这一陀让hexo判定为文章类型 -->]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/11/04/hello-world/"/>
-      <url>/2022/11/04/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的博客! 这里是我的第一篇文章。（其实是一份hexo给的文章模板）<a href="https://hexo.io/docs/">点击这里</a> 以查看更多官方的文档配置信息。 如果有关于hexo相关的问题可以去<a href="https://hexo.io/docs/troubleshooting.html">这个网站</a>找找答案 ，或者可以去<a href="https://github.com/hexojs/hexo/issues">GitHub的issues区</a>主动提问。</p><h2 id="一些快捷指令"><a href="#一些快捷指令" class="headerlink" title="一些快捷指令"></a>一些快捷指令</h2><h3 id="创建一篇新文章"><a href="#创建一篇新文章" class="headerlink" title="创建一篇新文章"></a>创建一篇新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="跑一跑服务器看看"><a href="#跑一跑服务器看看" class="headerlink" title="跑一跑服务器看看"></a>跑一跑服务器看看</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><figcaption><span>Code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><figcaption><span>Code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><figcaption><span>Code</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到我的博客! 这里是我的第一篇文章。（其实是一份hexo给的文章模板）<a href="https://hexo.io/docs/">点击这里</a> 以查看更多官方的文档配置信息。 如果有关于hexo相关的问题可以去<a href="https://hexo.io/docs/troubleshooting.html">这个网站</a>找找答案 ，或者可以去<a href="https://github.com/hexojs/hexo/issues">GitHub的issues区</a>主动提问。</p><h2 id="一些快捷指令"><a href="#一些快捷指令" class="headerlink" title="一些快捷指令"></a>一些快捷指令</h2><h3 id="创建一篇新文章"><a href="#创建一篇新文章" class="headerlink" title="创建一篇新文章"></a>创建一篇新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="跑一跑服务器看看"><a href="#跑一跑服务器看看" class="headerlink" title="跑一跑服务器看看"></a>跑一跑服务器看看</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>or</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 模板 </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> markdown </tag>
+            
+        </tags>
       
     </entry>
     
