@@ -1,0 +1,4 @@
+Background-pic文件夹：网站背景以及网站顶部贴图
+default-cover文件夹：默认的封面贴图（随机选）
+category-cover文件夹：首页分类磁贴的贴图
+ava开头的素材：头像，小图标等素材
