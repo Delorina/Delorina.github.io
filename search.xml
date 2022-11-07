@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> markdown </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -25,6 +25,35 @@
             <tag> Hexo </tag>
             
             <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何用AE制作简单的音频可视化</title>
+      <link href="/2022/05/02/%E5%A6%82%E4%BD%95%E7%94%A8AE%E5%88%B6%E4%BD%9C%E7%AE%80%E5%8D%95%E7%9A%84%E9%9F%B3%E9%A2%91%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+      <url>/2022/05/02/%E5%A6%82%E4%BD%95%E7%94%A8AE%E5%88%B6%E4%BD%9C%E7%AE%80%E5%8D%95%E7%9A%84%E9%9F%B3%E9%A2%91%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<p>第0步 安装好Adobe Effect 2020</p><p>第1步 新建合成</p><p>(注意合成”持续时间”等属性的设置)</p><p>第2步 将音频文件(＊.mp3)拖入合成栏</p><p>第3步 在合成栏中右键→新建→纯色</p><p>第4步 对纯色图层右键→效果→生成→音频频谱</p><p>第5步 在做侧边栏的效果控件面板中，找到“音频层”属性，下拉选中音乐。</p><p>第6步 用工具栏的椭圆工具(Q)画一个圆路径(按住shift可得正圆)</p><p>第7步 对“内&#x2F;外部颜色”选择并设置。</p><p>第8步 对纯色图层(合成栏中)的“蒙版”→蒙版下拉选择“无”。</p><p>第9步 对左侧边栏效果控件面板的色相插值拉圈调节(彩色效果)</p><p>第10步 对左侧边栏效果控件面板的“路径”下拉选择蒙版。</p><p>第11步 对“显示选项”下拉可选择多种样式，个人喜欢“模拟谱线”</p><p>第12步 “频段”数值越高，越密集；“最大高度”数值越高，可视化频谱线波动幅度越大。</p><p>第13步 “面选项”，A面朝内，B面朝外，A+B面则有综合效果。这个属性可以复制多个纯色图层来利用，分别选择A，B，A+B并组合搭配。 </p><p>【补充】视频教程可以看这位大佬的演示： <a href="https://www.bilibili.com/video/BV1Qt411x7hi/?vd_source=b83db3c9033d0ccc86ec56f20543265e">Bilibili</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AE </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 音频可视化 </tag>
+            
+            <tag> AE </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
